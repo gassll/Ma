@@ -1,0 +1,18 @@
+.html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 120%;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+

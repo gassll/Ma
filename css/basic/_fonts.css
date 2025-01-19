@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Inter'; /* Имя шрифта */
+    src: url('path/to/Inter-Regular.woff2') format('woff2'), 
+         url('path/to/Inter-Regular.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap; /* Поддержка быстрой загрузки шрифта */
+}
