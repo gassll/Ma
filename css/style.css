@@ -6,3 +6,5 @@
 @import "basic/_fonts.css";
 
 @import "components/_header.css";
+
+@import "home/_home.css"

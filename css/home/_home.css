@@ -1,0 +1,19 @@
+.home__content{
+    max-width: 575px;
+    margin-right: 125px;
+}
+
+.home__inner{
+    display: flex;
+}
+
+.home__title{
+font-size: 60px;
+margin-bottom: 32px;
+}
+
+.home__text{
+font-size: 32px;
+margin-bottom: 32px;
+color: #606060;
+}
