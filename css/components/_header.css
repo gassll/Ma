@@ -3,7 +3,6 @@
     padding: 13px 0 3px 0;
 }
 .header__inner{
-    margin: 0 160px 0 160px;
     display: flex;
     align-items: center;
     justify-content: space-between;
