@@ -17,3 +17,21 @@ font-size: 32px;
 margin-bottom: 32px;
 color: #606060;
 }
+
+
+
+.info__inner{
+    display: flex;
+    margin-top: 136px;
+    margin-bottom: 134px;
+    max-width: 623px;
+}
+
+.info__title{
+    font-size: 18px;
+}
+
+.info__text{
+    font-size: 18px;
+    margin-left: 63px;
+}
