@@ -1,0 +1,31 @@
+.info__items {
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+    margin-top: 136px;
+    margin-bottom: 134px;
+    max-width: 623px;
+}
+.info__item{
+    display: flex;
+    gap: 63px;
+}
+
+.info__left{
+    max-width: 125px;    
+    width: 100%;
+}
+
+.info__subtitle {
+    border-bottom: 1px solid;
+    max-width: max-content;
+    font-size: 18px;
+}
+
+.info__text {
+    font-size: 18px;
+}
+
+.info__text p:not(:last-child) {
+    margin-bottom: 24px;
+}

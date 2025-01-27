@@ -7,4 +7,6 @@
 
 @import "components/_header.css";
 
-@import "home/_home.css"
+@import "home/_home.css";
+@import "home/_info.css";
+@import "home/_contact.css";

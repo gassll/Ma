@@ -1,0 +1,25 @@
+.contact__items{
+    margin-top: 71px;
+
+    border-top: 2px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__item{
+    display: flex;
+    gap: 322px;
+}
+
+.contact__left{
+    max-width: 347px;
+
+}
+
+.contact__subtitle{
+
+}
+
+.contact__text{
+
+}
