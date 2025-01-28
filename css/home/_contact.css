@@ -1,5 +1,5 @@
 .contact__items{
-    margin-top: 71px;
+    padding-top: 71px;
 
     border-top: 2px solid;
     display: flex;
@@ -17,9 +17,27 @@
 }
 
 .contact__subtitle{
+    font-size: 32px;
+    max-width: 347px;
 
 }
 
 .contact__text{
+    font-size: 32px;
+    
 
+}
+.contact__mail{
+    margin-bottom: 24px;
+    
+}
+
+.contact__resume{
+    font-size: 18px;
+}
+
+.arrow{
+    margin-left: 8px;
+    transform: translateY(2px);
+    display: inline-block;
 }
