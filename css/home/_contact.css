@@ -1,14 +1,16 @@
 .contact__items{
+    margin-bottom: 150px;
     padding-top: 71px;
-
     border-top: 2px solid;
     display: flex;
     flex-direction: column;
+
 }
 
 .contact__item{
     display: flex;
     gap: 322px;
+
 }
 
 .contact__left{

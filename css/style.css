@@ -6,7 +6,13 @@
 @import "basic/_fonts.css";
 
 @import "components/_header.css";
+@import "components/_footer.css";
+
 
 @import "home/_home.css";
 @import "home/_info.css";
 @import "home/_contact.css";
+
+@import "work/_work.css";
+
+

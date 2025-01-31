@@ -1,0 +1,24 @@
+.work__inner {
+
+}
+.work__description {
+    margin-bottom: 70px;
+    gap: 116px;
+    display: flex;
+}
+.work__title {
+    line-height: 0.97;
+    max-width: 360px;
+    font-weight: 500;
+    font-size: 60px;
+}
+.work__text {
+    margin-top: 64px;
+    line-height: 1.17;
+    max-width: 580px;
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 32px;
+}
+.work__arrow {
+}
