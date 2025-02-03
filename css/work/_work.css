@@ -20,5 +20,39 @@
     font-weight: 400;
     font-size: 32px;
 }
-.work__arrow {
+
+
+.content{
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+}
+.work__content{
+    max-width: 356px;
+    margin-right: 124px;
+}
+.work__item {
+}
+.work__content-title {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.work__content-text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.work__content-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray);
+    margin-bottom: 134px;
+}
+.work__content-link {
+    border-bottom: 1px solid var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 100px;
+
 }

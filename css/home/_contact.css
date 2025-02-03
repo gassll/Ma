@@ -4,34 +4,27 @@
     border-top: 2px solid;
     display: flex;
     flex-direction: column;
-
 }
 
 .contact__item{
     display: flex;
     gap: 322px;
-
 }
 
 .contact__left{
     max-width: 347px;
-
 }
 
 .contact__subtitle{
     font-size: 32px;
     max-width: 347px;
-
 }
 
 .contact__text{
     font-size: 32px;
-    
-
 }
 .contact__mail{
     margin-bottom: 24px;
-    
 }
 
 .contact__resume{
