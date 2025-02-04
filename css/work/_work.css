@@ -1,5 +1,5 @@
-.work__inner {
-
+.work {
+    margin-bottom: 100px;
 }
 .work__description {
     margin-bottom: 70px;
@@ -29,9 +29,16 @@
 }
 .work__content{
     max-width: 356px;
-    margin-right: 124px;
+    display: flex;
+    flex-direction: column;
 }
 .work__item {
+    justify-content: space-between;
+    gap: 50px;
+    border-bottom: 2px solid var(--black);
+    padding-bottom: 106px;
+    margin-top: 108px;
+    display: flex;
 }
 .work__content-title {
     margin-bottom: 25px;
@@ -47,12 +54,17 @@
     font-size: 14px;
     font-weight: 400;
     color: var(--gray);
-    margin-bottom: 134px;
+    margin-bottom: 167px;
 }
 .work__content-link {
     border-bottom: 1px solid var(--black);
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 100px;
+    margin-top: auto;
+    max-width: max-content;
+}
 
+.work__content-link--gray{
+    color: var(--gray);
+    border-color: var(--gray);
 }
