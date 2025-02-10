@@ -68,3 +68,15 @@
     color: var(--gray);
     border-color: var(--gray);
 }
+
+
+@media (max-width: 1000px){
+    .header{
+        margin: 90px 0px 190px;
+    }
+
+}
+
+@media (max-width: 960px){
+
+}
