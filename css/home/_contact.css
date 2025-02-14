@@ -8,7 +8,8 @@
 
 .contact__item{
     display: flex;
-    gap: 322px;
+    justify-content: space-between  ;
+    gap: 95px;
 }
 
 .contact__left{
@@ -21,9 +22,11 @@
 }
 
 .contact__text{
+    margin-right: 50px;
     font-size: 32px;
 }
 .contact__mail{
+    font-size: 32px;
     margin-bottom: 24px;
 }
 
@@ -36,3 +39,41 @@
     transform: translateY(2px);
     display: inline-block;
 }
+@media (max-width: 1100px){
+    .contact__subtitle{
+        font-size: 26px;
+    }
+    .contact__mail{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contact__subtitle {
+        font-size: 30px;
+    }
+    .contact__items {
+        margin-bottom: 120px;
+        padding-top: 67px;
+    }
+}
+
+@media (max-width: 900px){
+    .contact__mail{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px){
+    .contact__subtitle {
+        font-size: 26px;
+    }
+    .contact__mail {
+        font-size: 26px;
+    }
+    .contact__resume {
+        font-size: 17px;
+    }
+}
+
+

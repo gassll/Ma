@@ -69,14 +69,10 @@
     border-color: var(--gray);
 }
 
-
-@media (max-width: 1000px){
-    .header{
-        margin: 90px 0px 190px;
-    }
-
+.work__content-paragraph{
+    font-size: 18px;
+    font-weight: 400;
 }
 
-@media (max-width: 960px){
 
-}
+

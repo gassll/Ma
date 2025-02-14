@@ -30,3 +30,23 @@
     margin-bottom: 24px;
 }
 
+@media (max-width: 900px){
+    .info__items{
+        margin-bottom: 125px;
+    }
+}
+
+@media (max-width: 800px){
+    .info__items{
+        margin-top: 120px;
+        margin-bottom: 110px;
+    }
+}
+
+@media (max-width: 766px){
+    .info__items {
+        margin-top: 100px;
+        margin-bottom: 95px;
+    }
+}
+
