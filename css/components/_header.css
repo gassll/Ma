@@ -35,8 +35,9 @@
 
 @media (max-width: 1000px){
     .header{
-        margin: 50px 0px 120px;
+        margin: 28px 0px 105px;
     }
+    
 }
 
 @media (max-width: 900px){
@@ -49,5 +50,22 @@
     .header{
         margin: 50px 0px 100px;
     }
+}
 
+@media (max-width: 600px){
+    .header {
+        margin: 40px 0px 80px;
+    }
+}
+
+@media (max-width: 540px){
+    .header__list{
+        display: none;
+    }
+    .header {
+        margin: 25px 0px 75px;
+    }
+    .logo img {
+        width: 60px;
+    }
 }

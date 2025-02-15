@@ -54,7 +54,7 @@
     font-size: 14px;
     font-weight: 400;
     color: var(--gray);
-    margin-bottom: 167px;
+    margin-bottom: 40px;
 }
 .work__content-link {
     border-bottom: 1px solid var(--black);
@@ -72,7 +72,36 @@
 .work__content-paragraph{
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.work__img{
+    object-fit: cover;
+    height: auto;
+}
+
+@media (max-width: 992px){
+    .work__img{
+        width: 550px;
+    }
+}
+
+@media (max-width: 990px){
+    .work__content-paragraph{
+        font-size: 16px;
+    }
+    .work__content-text {
+        font-size: 16px;
+    }
 }
 
 
+@media (max-width: 900px){
+    .work__title{
+        font-size: 56px;
+    }
 
+    .work__text {
+        font-size: 28px ;
+    }
+}

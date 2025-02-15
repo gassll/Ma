@@ -20,3 +20,13 @@
 .footer__title{
     color: var(--blue);
 }
+
+
+@media (max-width: 610px){
+    .footer__inner{
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+}
