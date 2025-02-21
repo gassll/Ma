@@ -42,7 +42,7 @@
 
 @media (max-width: 900px){
     .header{
-        margin: 50px 0px 112px;
+        margin: 50px 0px 100px;
     }
 }
 
@@ -68,4 +68,9 @@
     .logo img {
         width: 60px;
     }
+}
+
+
+.header {
+    margin: 50px 0px 95px;
 }

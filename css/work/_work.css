@@ -105,3 +105,26 @@
         font-size: 28px ;
     }
 }
+
+@media (max-width: 850px){
+    .work__item{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        padding-bottom: 102px;
+    }
+    .work__text {
+        font-size: 24px;
+    }
+    .work__title {
+        font-size: 53px;
+    }
+    .work__content-link {
+        margin: 0 auto;
+    }
+
+
+}
+
