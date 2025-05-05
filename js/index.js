@@ -6,4 +6,13 @@ menuBtn.addEventListener('click', function () {
     mobileMenu.classList.toggle('active');
 });
 
-// где изучение JS?)
+new Swiper('.swiper', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+        prevEl: '.swiper__btn--prev',
+        nextEl: '.swiper__btn--next',
+
+    }
+});
